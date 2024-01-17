@@ -1,0 +1,64 @@
+In HTML, various tags are used to structure and format content on a webpage. Here's a list of common HTML tags:
+
+1. *Document Structure:*
+   - <!DOCTYPE html>: Specifies the document type and HTML version.
+   - <html>: Root element.
+   - <head>: Contains meta-information about the HTML document.
+   - <title>: Sets the title of the HTML document.
+   - <body>: Contains the content of the HTML document.
+
+2. *Text Formatting:*
+   - <h1> to <h6>: Headings (largest to smallest).
+   - <p>: Paragraph.
+   - <strong>: Strong emphasis (bold).
+   - <em>: Emphasis (italic).
+   - <u>: Underline.
+   - <br>: Line break.
+
+3. *Lists:*
+   - <ul>: Unordered list.
+   - <ol>: Ordered list.
+   - <li>: List item.
+
+4. *Links and Navigation:*
+   - <a>: Anchor (used for hyperlinks).
+   - <nav>: Navigation section.
+
+5. *Images:*
+   - <img>: Image.
+  
+6. *Tables:*
+   - <table>: Defines a table.
+   - <tr>: Defines a table row.
+   - <th>: Defines a table header cell.
+   - <td>: Defines a table data cell.
+   - <thead>, <tbody>, <tfoot>: Groups header, body, and footer content in a table.
+
+7. *Forms:*
+   - <form>: Defines an HTML form.
+   - <input>: Input field.
+   - <textarea>: Text area.
+   - <select>: Dropdown list.
+   - <button>: Button.
+
+8. *Semantic HTML5 Elements:*
+   - <header>: Represents a group of introductory or navigational aids.
+   - <nav>: Represents a section of navigation links.
+   - <article>: Represents a self-contained piece of content.
+   - <section>: Represents a generic section of content.
+   - <aside>: Represents content that is tangentially related to the content around it.
+   - <footer>: Represents a footer for a section or page.
+   - <main>: Represents the main content of the document.
+
+9. *Multimedia:*
+   - <audio>: Embeds audio content.
+   - <video>: Embeds video content.
+
+10. *HTML5 Forms:*
+    - <input> (various types): Text, password, checkbox, radio, number, etc.
+    - <label>: Defines a label for an <input> element.
+    - <select>: Dropdown list.
+    - <option>: Defines an option in a <select> element.
+    - <textarea>: Text area.
+    - <fieldset>: Groups related elements in a form.
+11.div tag
