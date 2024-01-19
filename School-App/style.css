@@ -1,0 +1,33 @@
+#webpageheader{
+    background-color: aquamarine;
+}
+#body{
+    background-color: rgb(186, 186, 33);
+}
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee-container {
+  overflow: hidden;
+  bottom: 0;
+  white-space: nowrap;
+  background: rgba(27, 245, 110, 0.932);
+}
+
+.marquee-content {
+  font-size: 20px;
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+img {
+  width: 300px; /* Set the desired width */
+  height: auto; 
+  display: inline-block;
+  margin: 5px;/* Maintain the aspect ratio by setting height to auto */
+}
+
+.hclass {
+  border: 2px solid blue;
+}
