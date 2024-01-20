@@ -1,32 +1,42 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Fee-Details</title>
-    <link rel="stylesheet" href="login.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="fee.css">
+  <title>Class Selection Form</title>
 </head>
 <body>
-    <div id="Fee">
-    <form action="xyz.html">
-        <fieldset>
-            <legend>Enter Student Details</legend>
-        <table cellspacing="5">
-            <tr>
-          <td>      
-            Select the class: </td>
-        
-        <tr>
-            <td>Enter your PASSWORD:<br/>
-            <input type="password" Placeholder="Password" name="password"/></td><br/>
-             <br/>
-        </tr>
 
-        <tr>
-            <td align="left"><input type="submit" value="LOGIN"/></td>
-            
-            
-        </tr>
-        
-    </table>
-    </form>
-</fieldset>
-</div>
+  <form id="classSelectionForm">
+    <label for="classSelect">Select the Class:</label>
+    <select id="classSelect" name="classSelect">
+      <option value="0">Nursery</option>
+      <option value="1">Class 1</option>
+      <option value="2">Class 2</option>
+      <option value="3">Class 3</option>
+      <option value="4">Class 4</option>
+      <option value="5">Class 5</option>
+      <option value="6">Class 6</option>
+      <option value="7">Class 7</option>
+      <option value="8">Class 8</option>
+      <option value="9">Class 9</option>
+      <option value="10">Class 10</option>
+    </select>
+
+    <label for="sectionSelect">Select Section:</label>
+    <select id="sectionSelect" name="sectionSelect">
+      <option value="A">Section A</option>
+      <option value="B">Section B</option>
+      <option value="C">Section C</option>
+    </select>
+
+    <label for="rollNumber">Enter Roll Number:</label>
+    <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter Roll Number">
+
+    <button type="button" onclick="submitForm()">Submit</button>
+  </form>
+
+  <script src="fee.js"></script>
 </body>
+</html>
