@@ -1,32 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Login-Page</title>
-    <link rel="stylesheet" href="login.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form </title>
+  <link rel="stylesheet" href="login.css">
+ <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>-->
 </head>
 <body>
-    <div id="login">
+  <div class="wrapper">
     <form action="xyz.html">
-        <fieldset>
-            <legend>LOGIN TO YOUR ACCOUNT</legend>
-        <table cellspacing="5">
-            <tr>
-          <td>      
-        Enter your USERNAME:<br/>
-        <input type="text" name="username"/></td></tr>
-        <tr>
-            <td>Enter your PASSWORD:<br/>
-            <input type="password" Placeholder="Password" name="password"/></td><br/>
-             <br/>
-        </tr>
-
-        <tr>
-            <td align="left"><input type="submit" value="LOGIN"/></td>
-            
-            
-        </tr>
-        
-    </table>
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Username" required>
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password" required>
+        <i class='bx bxs-lock-alt' ></i>
+      </div>
+     <!---- <div class="remember-forgot">
+        <label><input type="checkbox">Remember Me</label>
+        <a href="#">Forgot Password</a>
+      </div>-->
+      <button type="submit" class="btn">Login</button>
+      <div class="register-link">
+        <p>Dont have an account? <a href="register.html">Register</a></p>
+      </div>
     </form>
-</fieldset>
-</div>
+  </div>
 </body>
+</html>

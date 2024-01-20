@@ -1,95 +1,95 @@
 #webpageheader{
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 #body{
-    background-color: rgb(186, 186, 33);
+  background-color: rgb(186, 186, 33);
 }
 nav{
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  background-color: aquamarine;
-  border-radius: 15px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+background-color: aquamarine;
+border-radius: 15px;
 }
 nav ul{
-  display:flex;
-  justify-content: center;
+display:flex;
+justify-content: center;
 }
 nav ul li{
-  list-style: none;
-  margin: 0 23px;
+list-style: none;
+margin: 0 23px;
 }
 nav ul li select{
-  border-radius: 15px;
-  background-color: aquamarine;
+border-radius: 15px;
+background-color: aquamarine;
 }
 img {
-  width: 300px; /* Set the desired width */
-  height: auto; 
-  display: inline-block;
-  margin: 5px;/* Maintain the aspect ratio by setting height to auto */
+width: 300px; /* Set the desired width */
+height: auto; 
+display: inline-block;
+margin: 5px;/* Maintain the aspect ratio by setting height to auto */
 }
 .div_21{
-  float:right;
-  width:25%;
-  margin:auto;
+float:right;
+width:25%;
+margin:auto;
 }
 .hclass {
-  border-radius: 15px;
-  width: 300px;
-  height: 170px;
-  margin-left: 6%;
-  margin-right: 15%;
-  margin-top: 10%;
+border-radius: 15px;
+width: 300px;
+height: 170px;
+margin-left: 6%;
+margin-right: 15%;
+margin-top: 10%;
 }
 
 h1{
-  text-align: center;
+text-align: center;
 }
 .hc{
-  width: 300px;
-  height: 170px;
+width: 300px;
+height: 170px;
 }
 #div_2{
-  border-radius: 15px;
-  background-color: rgb(196, 244, 255);;
-  height: 1000px;
-  width: 1325px;
+border-radius: 15px;
+background-color: rgb(196, 244, 255);;
+height: 1000px;
+width: 1325px;
 }
 .dropdown {
-  display: inline-block;
+display: inline-block;
 }
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
 }
 
 /* Style the dropdown links */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
 }
 
 /* Change color on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+background-color: #f1f1f1;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+display: block;
 }
 .scr1{
-  background-color: bisque;
-  height: auto;
-  justify-content:space-around;
-  border-radius: 15px;
+background-color: bisque;
+height: auto;
+justify-content:space-around;
+border-radius: 15px;
 }

@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/login.jpeg'); /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the form for better readability */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Rest of your styles remain the same */
+
+.heading {
+    color: #333;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.link {
+    color: #3498db;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
