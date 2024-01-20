@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Tabs</title>
+    <style>
+        /* Style the dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style the dropdown button */
+        .dropdown button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Style the dropdown content (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Style the links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color on hover */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Create a dropdown container -->
+<div class="dropdown">
+    <!-- Dropdown button -->
+    <button onclick="toggleDropdown()">Select a Page</button>
+
+    <!-- Dropdown content -->
+    <div class="dropdown-content" id="myDropdown">
+        <!-- Links to different pages -->
+        <a href="page1.html">Page 1</a>
+        <a href="page2.html">Page 2</a>
+        <a href="page3.html">Page 3</a>
+    </div>
+</div>
+
+<script>
+    // Function to toggle the dropdown content
+    function toggleDropdown() {
+        var dropdown = document.getElementById("myDropdown");
+        dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropdown button')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            for (var i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.style.display === "block") {
+                    openDropdown.style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+</body>
+</html>
