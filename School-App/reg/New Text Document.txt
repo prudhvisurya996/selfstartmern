@@ -1,0 +1,47 @@
+const express = require('express');
+const mysql = require('mysql');
+const bodyParser = require('body-parser');
+
+const app = express();
+const port = 3000;
+
+app.use(bodyParser.json());
+
+const db = mysql.createConnection({
+  host: 'database-1.czcgsicqctqx.us-east-1.rds.amazonaws.com',
+  user: 'admin',
+  password: 'admin123',
+  database: 'staff',
+});
+
+db.connect((err) => {
+  if (err) {
+    console.error('Error connecting to RDS MySQL:', err);
+    return;
+  }
+  console.log('Connected to RDS MySQL');
+});
+
+app.post('/register', (req, res) => {
+  const { name, email, password } = req.body;
+
+  const sql = 'INSERT INTO users (name, email, password) VALUES (?, ?, ?)';
+  db.query(sql, [name, email, password], (err, result) => {
+    if (err) {
+      console.error('Error inserting data into RDS MySQL:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+      return;
+    }
+
+    console.log('Data inserted into RDS MySQL successfully:', result);
+    res.status(200).json({ message: 'Registration successful' });
+  });
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
+
+
+mysql -h <RDS_ENDPOINT> -u <USERNAME> -p
+mysql -h database-1.czcgsicqctqx.us-east-1.rds.amazonaws.com -u admin -p 

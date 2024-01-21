@@ -1,0 +1,120 @@
+root@ip-172-31-93-158:~/selfstartmern# history
+    1  mkdir my-node-app
+    2  cd my-node-app
+    3  npm init -y
+    4  apt install npm
+    5  apt update -y
+    6  npm init -y
+    7  apt install npm -y
+    8  npm init -y
+    9  ls
+   10  vi server.js
+   11  node server.js
+   12  npm install express mysql body-parser
+   13  node server.js
+   14  vi server.js
+   15  cat server.js
+   16  ls
+   17  vi server.js
+   18  mysql -h database-1.czcgsicqctqx.us-east-1.rds.amazonaws.com -u admin -p
+   19  apt install mysql-client-core-8.0 
+   20  mysql -h database-1.czcgsicqctqx.us-east-1.rds.amazonaws.com -u admin -p
+   21  vi server.js
+   22  vi index.html
+   23  vi reg.js
+   24  cat server.js
+   25  clear
+   26  ls
+   27  cat index.html
+   28  clear
+   29  ls
+   30  cat reg.js 
+   31  node server.js
+   32  vi index.html
+   33  node server.js
+   34  cat index.html
+   35  cat reg.js
+   36  ls
+   37  node server.js 
+   38  vi server.js
+   39  node server.js 
+   40  vi server.js
+   41  node server.js 
+   42  vi server.js
+   43  pwd
+   44  ls
+   45  node server.js 
+   46  vi server.js
+   47  node server.js 
+   48  vi server.js
+   49  node server.js 
+   50  mysql -h database-1.czcgsicqctqx.us-east-1.rds.amazonaws.com -u admin -p admin123
+   51  mysql -h database-1.czcgsicqctqx.us-east-1.rds.amazonaws.com -u admin -p
+   52  ls
+   53  cat index.html
+   54  ls
+   55  cat reg.js
+   56  cat server.js 
+   57  vi server.js 
+   58  ls
+   59  node server.js 
+   60  mysql -h database-1.czcgsicqctqx.us-east-1.rds.amazonaws.com -u admin -p
+   61  clear
+   62  ls
+   63  cat index.html 
+   64  ls
+   65  cat server.js
+   66  ls
+   67  cat reg.js
+   68  history
+   69  ls
+   70  cd my-node-app/
+   71  ls
+   72  vi login.html
+   73  ls
+   74  vi login.js
+   75  cat server.js 
+   76  vi server.js 
+   77  node server.js 
+   78  ls
+   79  vi server.js 
+   80  vi reg.js 
+   81  node server.js 
+   82  ls
+   83  cat login.html 
+   84  ls
+   85  vi login.html 
+   86  vi server.js 
+   87  vi dashboard.html
+   88  node server.js 
+   89  ls
+   90  cat dashboard.html 
+   91  cat server.js 
+   92  mysql -h database-1.czcgsicqctqx.us-east-1.rds.amazonaws.com -u admin -p 
+   93  ls
+   94  cat login.js 
+   95  vi login.js
+   96  node server.js 
+   97  ls
+   98  cd my-node-app/
+   99  ls
+  100  cd ..
+  101  ls
+  102  git clone https://github.com/prudhvisurya996/selfstartmern.git
+  103  ls
+  104  mv my-node-app/ selfstartmern/
+  105  ls
+  106  cd selfstartmern/
+  107  ls
+  108  cd my-node-app/
+  109  ls
+  110  history 
+  111  history >commands.txt
+  112  ls
+  113  cd ..
+  114  git add .
+  115  git push origin main
+  116  git add .
+  117  git commit -m 1912200124
+  118  git push origin main
+  119  history
